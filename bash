@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #creates new user
-sudo dscl . -create /User/Mfreeman
+sudo dscl . -create /Users/Mfreeman
 
 #creates group
 sudo dscl . create /Groups/NewGroup
